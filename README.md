@@ -11,6 +11,7 @@ This repository contains the code used to process and analyse the data presented
 Our genetic makeup, together with environmental and social influences, shape our brain’s development. Yet, the imaging genetics field has struggled to integrate all these modalities to investigate the interplay between genetic blueprint, environment, human health, daily living skills and outcomes. Hence, we interrogated the Adolescent Brain Cognitive Development (ABCD) cohort to outline the effects of rare high-effect genetic variants on brain architecture and corresponding implications on cognitive, behavioral, psychosocial, and socioeconomic traits. Specifically, we designed a holistic pattern-learning algorithm that quantitatively dissects the impacts of copy number variations (CNVs) on brain structure and 962 behavioral variables spanning 20 categories in 7,657 adolescents. Our results reveal associations between genetic alterations, higher-order brain networks, and specific parameters of the family well-being (increased parental and child stress, anxiety and depression) or neighborhood dynamics (decreased safety); effects extending beyond the impairment of cognitive ability or language capacity, dominantly reported in the CNV literature. Our investigation thus spotlights a far-reaching interplay between genetic variation and subjective life quality in adolescents and their families.
 </div>
 
+## 
 
 <c>![Figure 1](https://github.com/jakubkopal/CNV-covariance/blob/main/figures/fig1.png)</c>
 
