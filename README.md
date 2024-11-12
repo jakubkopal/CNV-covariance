@@ -14,7 +14,7 @@ Our genetic makeup, together with environmental and social influences, shape our
 </div>
 
 
-<c>![Figure 1](https://github.com/jakubkopal/CNV-covariance/blob/main/figures/fig1.pdf)</c>
+<c>![Figure 1](https://github.com/jakubkopal/CNV-covariance/blob/main/figures/fig1.png)</c>
 
 
 Figure 1
