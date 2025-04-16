@@ -4,11 +4,11 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1101%2F862615-informational
 )]([https://doi.org/10.1101/2024.05.21.24307729](https://doi.org/10.1101/2024.05.21.24307729))
 
-This repository contains the code used to process and analyse the data presented in the "High-effect gene-coding variants impact cognition, mental well-being, and neighborhood safety substrates in brain morphology" paper. In addition, it also contains associated figures.
+This repository contains the code used to process and analyse the data presented in the "A pattern-learning algorithm associates copy number variations with brain structure and behavioral variables in an adolescent cohort" paper. In addition, it also contains associated figures.
 
 ## Abstract
 <div style="margin-left: 40px;" align="justify">
-Our genetic makeup, together with environmental and social influences, shape our brain’s development. Yet, the imaging genetics field has struggled to integrate all these modalities to investigate the interplay between genetic blueprint, environment, human health, daily living skills and outcomes. Hence, we interrogated the Adolescent Brain Cognitive Development (ABCD) cohort to outline the effects of rare high-effect genetic variants on brain architecture and corresponding implications on cognitive, behavioral, psychosocial, and socioeconomic traits. Specifically, we designed a holistic pattern-learning algorithm that quantitatively dissects the impacts of copy number variations (CNVs) on brain structure and 962 behavioral variables spanning 20 categories in 7,657 adolescents. Our results reveal associations between genetic alterations, higher-order brain networks, and specific parameters of the family well-being (increased parental and child stress, anxiety and depression) or neighborhood dynamics (decreased safety); effects extending beyond the impairment of cognitive ability or language capacity, dominantly reported in the CNV literature. Our investigation thus spotlights a far-reaching interplay between genetic variation and subjective life quality in adolescents and their families.
+Our genetic makeup, together with environmental and social influences, shape our brain's development. Yet, the imaging genetics field has struggled to integrate all these modalities to investigate the interplay between genetic blueprint, brain architecture, environment, human health, and daily living skills. Here, we interrogate the Adolescent Brain Cognitive Development (ABCD) cohort to outline the effects of rare high-effect genetic variants on brain architecture and their corresponding implications on cognitive, behavioral, psychosocial, and socioeconomic traits. We design a holistic pattern-learning algorithm that quantitatively dissects the impacts of copy number variations (CNVs) on brain structure and 938 behavioral variables spanning 20 categories in 7,338 adolescents. Our results reveal associations between genetic alterations, higher-order brain networks, and specific parameters of the family well-being, including increased parental and child stress, anxiety and depression, or neighborhood dynamics such as decreased safety. We also find effects extending beyond the impairment of cognitive ability or language capacity which have been previously reported. Our investigation spotlights the interplay between genetic variation and subjective life quality in adolescents and their families.
 </div>
 
 ## 
@@ -28,10 +28,10 @@ A) Genome-wide CNV identification in the ABCD population cohort. We investigated
 ## Resources and Scripts
 All figures used in the articles are in the `figures` folder. Findings from the article are based on the analysis scripts in the `scripts` folder.
 
-1.   `scripts/a1_parameters_PLS.ipynb` is a script that prepares ABCD data for the subsequent analyses.
-2.   `scripts/a2_PLS_score_differnce.ipynb` is an analysis script to examine the optimal number of PLS dimensions.
-3.   `scripts/a3_PLS_loadings.ipynb` uses cross-validation and permutaiton testing to quantify the differences between controls and CNV carriers.
-4.   `scripts/a4_PLS_scores.ipynb` is an analysis script to investigate PLS loadings.
-5.   `scripts/a5_PLS scores_annotation.ipynb` is an analysis script to investigate PLS scores.
-6.   `scripts/a5_PLS scores_covariates.ipynb` is an analysis script to investigate PLS scores.
-7.   `scripts/a6_PLS scores_shift.ipynb` is an analysis script to investigate PLS scores.
+1.   `scripts/a1_parameters_PLS.ipynb` is an analysis script designed to find the optimal number of PLS dimensions.
+2.   `scripts/a2_PLS_score_differnce.ipynb` uses cross-validation and permutaiton testing to quantify the differences between controls and CNV carriers.
+3.   `scripts/a3_PLS_loadings.ipynb` is an analysis script to investigate and visualize PLS loadings.
+4.   `scripts/a4_PLS_scores.ipynb` is an analysis script to investigate and visualzie PLS scores.
+5.   `scripts/a5_PLS scores_annotation.ipynb` is an analysis script that quantifies associations between PLS scores and gene annotations.
+6.   `scripts/a5_PLS scores_covariates.ipynb` is an analysis script that quantifies associations between PLS scores and covariates.
+7.   `scripts/a6_PLS scores_shift.ipynb` is an analysis script to investigate the shift in PLS scores between baseline and follow-up measurements.
