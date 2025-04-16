@@ -28,8 +28,10 @@ A) Genome-wide CNV identification in the ABCD population cohort. We investigated
 ## Resources and Scripts
 All figures used in the articles are in the `figures` folder. Findings from the article are based on the analysis scripts in the `scripts` folder.
 
-1.   `scripts/prepare_data.ipynb` is a script that prepares ABCD data for the subsequent analyses.
-2.   `scripts/PLS_dimensions.ipynb` is an analysis script to examine the optimal number of PLS dimensions.
-3.   `scripts/PLS_difference.ipynb` uses cross-validation and permutaiton testing to quantify the differences between controls and CNV carriers.
-4.   `scripts/PLS_loadings.ipynb` is an analysis script to investigate PLS loadings.
-5.   `scripts/PLS scores.ipynb` is an analysis script to investigate PLS scores.
+1.   `scripts/a1_parameters_PLS.ipynb` is a script that prepares ABCD data for the subsequent analyses.
+2.   `scripts/a2_PLS_score_differnce.ipynb` is an analysis script to examine the optimal number of PLS dimensions.
+3.   `scripts/a3_PLS_loadings.ipynb` uses cross-validation and permutaiton testing to quantify the differences between controls and CNV carriers.
+4.   `scripts/a4_PLS_scores.ipynb` is an analysis script to investigate PLS loadings.
+5.   `scripts/a5_PLS scores_annotation.ipynb` is an analysis script to investigate PLS scores.
+6.   `scripts/a5_PLS scores_covariates.ipynb` is an analysis script to investigate PLS scores.
+7.   `scripts/a6_PLS scores_shift.ipynb` is an analysis script to investigate PLS scores.
